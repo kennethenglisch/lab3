@@ -1,13 +1,13 @@
 public class ExecutionTime {
 
-	private int n = 100000;
+	private int n = 10000;
 	private long sum = 0;
 	
 	public static void main(String args[]) 
 	{
 		ExecutionTime e = new ExecutionTime();
 		//long start = System.currentTimeMillis();
-		e.frag2();
+		e.frag8();
 		//long end = System.currentTimeMillis();
 		//double stop = (end-start);
 		System.out.println(e.sum);
