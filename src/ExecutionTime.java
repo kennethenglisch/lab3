@@ -6,10 +6,7 @@ public class ExecutionTime {
 	public static void main(String args[]) 
 	{
 		ExecutionTime e = new ExecutionTime();
-		//long start = System.currentTimeMillis();
 		e.frag8();
-		//long end = System.currentTimeMillis();
-		//double stop = (end-start);
 		System.out.println(e.sum);
 		
 	}
